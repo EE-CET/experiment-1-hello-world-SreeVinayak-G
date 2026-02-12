@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Hello World Check",
+      "setup": "javac src/HelloWorld.java",
+      "run": "java -cp src HelloWorld",
+      "input": "",
+      "output": "Hello, World.\nHello, Java.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
